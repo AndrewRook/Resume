@@ -1,31 +1,31 @@
 % LaTeX file for resume 
 % This file uses the resume document class (res.cls)
 
-\documentclass[11pt, margin]{res_hacked_long}
-\topmargin=-0.125in  % start text higher on the page
-\oddsidemargin=-0.125in
+\documentclass[11pt]{res}
+\topmargin=-0.280in  % start text higher on the page
 \setlength{\textheight}{9.75in} % increase text height to fit resume on 1 page
+\newsectionwidth{0pt}  % So the text is not indented under section headings
 \begin{document}  
 \name{Andrew Schechtman-Rook, Ph.D.}
 
 \address{rook166@gmail.com --- (917)-836-4267}
                         
 \begin{resume}      
-\section{SUMMARY}
+\section{\centerline{\Large SUMMARY}}
 \vspace*{0.15 in}\begin{itemize}\itemsep -2pt
-\addtolength{\itemindent}{-0.215in}
+%\addtolength{\itemindent}{-0.215in}
+\centering
 \item 8+ years of experience with analysis of large, complex datasets.
 \item Strong programming, numerical analysis, and visualization skills.
 \item Extensive familiarity with linear and non-linear model fitting.
 \item Experience writing software for both parallel and distributed
   environments.
 \item Able to work independently as well as part of a team.
-\item Practiced writer and speaker for technical and non-technical audiences.
+\item Practiced writer and speaker for technical and non-technical
+  audiences.
 \end{itemize}
-\vspace {-0.2 in}
-\section{SKILLS} 
-\normalsize{\section{Technical}}
-                    {\bf Programming:} C++, C\#, Python (including
+\section{\centerline{\large SKILLS}}
+                    {\bf Programming:} C++, Python (including
                     Matplotlib, MySQL-python, Numpy, pyMC,
                     Scikit-learn, Scipy), R, Unix shell scripting.\\
                       {\bf Databases and Web Design:} Django, HTML, MySQL, PHP.\\
@@ -35,19 +35,15 @@
                         linear and non-linear regression; Markov Chain
                         Monte Carlo; numerical integration and
                         differentiation; parallel and distributed
-                        computing; principal component analysis; rootfinding.
-\vspace {-0.2 in}
-\normalsize{\section{Communication}}
+                        computing; principal component analysis; rootfinding.\\
                      {\bf Oral Presentations:} Gave talks describing advanced
                        analysis and modeling to both expert and
                        non-expert audiences.\\
                        {\bf Writing:} Published research in leading
                          peer-reviewed scientific journals (see below
                          for selected publication list).
-\vspace {-0.1 in}
-\section{WORK EXPERIENCE}
-%\vskip 0.01in
-{\bf Research Associate}\hfill\mbox{2014-Present}\\
+\section{\centerline{\large PROFESSIONAL EXPERIENCE}}
+{\bf Postdoctoral Research Associate}\hfill\mbox{2014-Present}\\
 University of Wisconsin-Madison
                   \vspace* {0.01 in}\begin{itemize} \itemsep -2pt
                     %\addtolength{\itemindent}{-0.215in}
@@ -55,12 +51,13 @@ University of Wisconsin-Madison
                       of mis-match between numerical models and
                       astronomical data.
                     \item Implemented a Voronoi Tesselation algorithm
-                      maximize spatial resolution and signal in images.
+                      to maximize spatial resolution and signal in
+                      adaptively binned images.
                     \item Constructed advanced visualization tools to
                       aid in the refinement of data processing
                       techniques.
                     \item Trained and mentored undergraduate and
-                      graduate students in programming and statistical analysis.
+                      graduate students in programming, data analysis and statistical methods.
                     \end{itemize}
 \vspace{-0.15in}
 {\bf Research Assistant}\hfill\mbox{2007-2013}\\
@@ -71,7 +68,7 @@ University of Wisconsin-Madison
                       $\chi^{2}$ fitting algorithms to constrain
                       models of spiral galaxies to data. 
                    \item Employed on-campus distributed computing
-                     resources to perform large-scale modeling, using over 20 years of computer time
+                     resources to perform large-scale modeling in parallel, using over 20 years of computer time
                      in 1 month.
                    \item Created a genetic
                      algorithm to efficiently fit galaxy models with
@@ -120,16 +117,17 @@ Case Western Reserve University
 \item Developed and built components for new labs.
 \item Upgraded hardware and software for over 20 lab computers.
 \end{itemize}
-\section{OTHER RELEVANT EXPERIENCE}
+\section{\centerline{\large OTHER RELEVANT EXPERIENCE}}
 {\bf Independent NFL Analyst}\hfill\mbox{2013-Present}\\
 phdfootball.blogspot.com
                   \vspace* {0.01 in}\begin{itemize} \itemsep -2pt
                     %\addtolength{\itemindent}{-0.215in}
                     \item Performed novel statistical analyses on
                       publicly available NFL data.
-                    \item Mined a database containing
-                      over 500,000 entries across dozens of tables for complex relationships
-                      in play-by-play data. 
+                    \item Mined a play-by-play database containing
+                      over 500,000 recordss across dozens of tables
+                      for complex relationships between individual players
+                      as well as teams. 
                     \item Developed custom software and visualization
                       tools to efficiently examine hundreds
                       of thousands of individual plays. 
@@ -137,7 +135,7 @@ phdfootball.blogspot.com
                   \end{itemize} 
 \vspace{-0.1 in}
 
-\section{EDUCATION} 
+\section{\centerline{\large EDUCATION}}
 Ph.D., Astronomy, University of Wisconsin-Madison \hfill\mbox{December 2013}
 \begin{itemize} \itemsep -2pt
 \item Wisconsin Space Grant Consortium Graduate Fellowship
@@ -152,8 +150,7 @@ BS, Astronomy, Case Western Reserve University \hfill\mbox{May 2007}
 \item Graduated {\it cum laude}
 \item Minors in Physics and Classics
 \end{itemize}
-\vspace{-0.15 in}
-\section{SELECTED PUBLICATIONS} 
+\section{\centerline{\large SELECTED PUBLICATIONS}}
 {\bf Schechtman-Rook, A.} \& Bershady, M. A., ``Near-Infrared Structure
 of Fast and Slow Rotating Disk Galaxies'', 2014, {\it in prep}\\
 {\bf Schechtman-Rook, A.}, Ph.D. Dissertation: ``Lifting the Dusty
