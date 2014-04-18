@@ -2,3 +2,7 @@
 *.aux
 *.ps
 *.log
+*.docx
+*.pages
+*CV*
+.DS_Store

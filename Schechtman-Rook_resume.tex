@@ -6,15 +6,16 @@
 \setlength{\textheight}{9.75in} % increase text height to fit resume on 1 page
 \newsectionwidth{0pt}  % So the text is not indented under section headings
 \begin{document}  
-\name{Andrew Schechtman-Rook, Ph.D.}
+\name{Andrew Schechtman-Rook}
 
 \address{rook166@gmail.com --- (917)-836-4267}
                         
-\begin{resume}      
-\section{\centerline{\Large SUMMARY}}
+\begin{resume} 
+\vspace{-0.1in}
+\section{\centerline{\large SUMMARY}}
 \vspace*{0.15 in}\begin{itemize}\itemsep -2pt
-%\addtolength{\itemindent}{-0.215in}
-\centering
+\addtolength{\itemindent}{-0.215in}
+%\centering
 \item 8+ years of experience with analysis of large, complex datasets.
 \item Strong programming, numerical analysis, and visualization skills.
 \item Extensive familiarity with linear and non-linear model fitting.
@@ -24,37 +25,41 @@
 \item Practiced writer and speaker for technical and non-technical
   audiences.
 \end{itemize}
+\vspace{-0.1in}
 \section{\centerline{\large SKILLS}}
                     {\bf Programming:} C++, Python (including
-                    Matplotlib, MySQL-python, Numpy, pyMC,
-                    Scikit-learn, Scipy), R, Unix shell scripting.\\
+                    Matplotlib, Numpy, Scikit-learn, Scipy), shell scripting.\\
                       {\bf Databases and Web Design:} Django, HTML, MySQL, PHP.\\
                         {\bf Operating Systems:} Linux, Mac OS X.\\
                         {\bf Data Analysis:} Bootstrapping; genetic algorithms; image
                         processing and machine vision; interpolation;
-                        linear and non-linear regression; Markov Chain
-                        Monte Carlo; numerical integration and
+                        linear and non-linear regression; Monte Carlo; numerical integration and
                         differentiation; parallel and distributed
                         computing; principal component analysis; rootfinding.\\
-                     {\bf Oral Presentations:} Gave talks describing advanced
+                     {\bf Oral Presentations:} Described advanced
                        analysis and modeling to both expert and
-                       non-expert audiences.\\
+                       non-expert audiences through engaging lectures
+                       and informal discussions.\\
                        {\bf Writing:} Published research in leading
-                         peer-reviewed scientific journals (see below
-                         for selected publication list).
+                         scientific journals (full list
+                         available upon request). 
+\vspace{-0.1in}
 \section{\centerline{\large PROFESSIONAL EXPERIENCE}}
 {\bf Postdoctoral Research Associate}\hfill\mbox{2014-Present}\\
 University of Wisconsin-Madison
                   \vspace* {0.01 in}\begin{itemize} \itemsep -2pt
                     %\addtolength{\itemindent}{-0.215in}
                     \item Devised metrics to improve correspondence between numerical models and
-                      astronomical data.
-                    \item Implemented a Voronoi Tesselation algorithm
+                      astronomical data. Implemented in highly
+                      optimized Python, was able to refine agreement by
+                      up to 20\% with minimal increase in computation time.
+                    \item Built a fast Voronoi Tesselation algorithm
                       to adaptively bin images, preserving spatial
-                      resolution while maximizing signal.
-                    \item Constructed visualization tools to
-                      aid in the refinement of data processing
-                      techniques.
+                      resolution while maximizing signal over images
+                      with over one million pixels.
+                    \item Constructed visualization tools using
+                      Matplotlib to
+                      aid data processing efforts.
                     \item Trained and mentored undergraduate and
                       graduate students in programming, data analysis and statistical methods.
                     \end{itemize}
@@ -64,27 +69,34 @@ University of Wisconsin-Madison
                   \vspace* {0.01 in}\begin{itemize} \itemsep -2pt
                     %\addtolength{\itemindent}{-0.215in}
                     \item Developed non-linear Levenberg-Marquardt
-                      $\chi^{2}$ fitting algorithms to constrain
+                      $\chi^{2}$ fitting algorithms using a
+                      combination of Python and C++ to constrain
                       models of spiral galaxies to data. 
                    \item Employed on-campus distributed computing
                      resources to perform large-scale modeling in parallel, using over 20 years of computer time
                      in 1 month.
+                   \item Assembled a hybrid C++/Python processing
+                     pipeline to clean, register, and
+                     mosaic hundreds of high-resolution images with
+                     minimal user intervention, resulting in a factor
+                     of 10+ increase in analysis precision.
                    \item Created a genetic
-                     algorithm to efficiently fit galaxy models with
+                     algorithm in C++ to efficiently fit galaxy models with
                      unusually large numbers of
                      free parameters to high-resolution images.
                    \item Utilized frequency-domain analysis to
                      understand the spatial distribution of galactic structure.
                   \item Computed descriptive statistics about
                     200+ astronomical objects from raw survey data
-                    automatically via custom-built analysis software.
+                    automatically via custom-built analysis software
+                    blending C++ and shell scripting programs.
                   \item Implemented methods comparing different
                     fitting statistics to compute global best-fitting
                     parameters for multiple datasets. 
                   \item Discovered and classified a previously unknown
                     galaxy by simultaneously using data from seven different sources. 
                   \end{itemize} 
-\vspace {-0.15 in}\newpage
+\vspace {-0.15 in}
 {\bf Teaching Assistant}\hfill\mbox{2008-2009}\\
 University of Wisconsin-Madison
 \vspace*{0.01 in}\begin{itemize}\itemsep -2pt
@@ -116,6 +128,7 @@ Case Western Reserve University
 \item Developed and built components for new labs.
 \item Upgraded hardware and software for over 20 lab computers.
 \end{itemize}
+\vspace{-0.1in}
 \section{\centerline{\large OTHER RELEVANT EXPERIENCE}}
 {\bf Independent NFL Analyst}\hfill\mbox{2013-Present}\\
 phdfootball.blogspot.com
@@ -128,7 +141,7 @@ phdfootball.blogspot.com
                       for complex relationships between individual players
                       as well as teams. 
                     \item Developed custom software and visualization
-                      tools to efficiently examine thousands of plays. 
+                      tools using MySQL and Python to efficiently examine thousands of plays. 
                     \item Explained findings in a manner accessible to all audiences through both written posts and evocative figures.
                   \end{itemize} 
 \vspace{-0.1 in}
@@ -148,17 +161,18 @@ BS, Astronomy, Case Western Reserve University \hfill\mbox{May 2007}
 \item Graduated {\it cum laude}
 \item Minors in Physics and Classics
 \end{itemize}
-\section{\centerline{\large SELECTED PUBLICATIONS}}
-{\bf Schechtman-Rook, A.} \& Bershady, M. A., ``Near-Infrared Structure
-of Fast and Slow Rotating Disk Galaxies'', 2014, {\it in prep}\\
-{\bf Schechtman-Rook, A.}, Ph.D. Dissertation: ``Lifting the Dusty
-Veil: Understanding the Stellar Structure of Spiral Disks'', 2013\\
-{\bf Schechtman-Rook, A.} \& Bershady, M. A., ``Near-infrared Detection
-of a Super-thin Disk in NGC 891'', 2013, {\it ApJ}, 773, 45\\
-{\bf Schechtman-Rook, A.} \& Hess, K. M., ``NGC 4656UV: A UV-selected
-Tidal Dwarf Galaxy Candidate'', 2012, {\it ApJ}, 750, 171\\
-{\bf Schechtman-Rook, A.}, Bershady, M. A., \& Wood, K., ``The
-Three-dimensional Distribution of Dust in NGC 891'', 2012, {\it ApJ}, 746,70
+% \vspace{-0.1in}
+% \section{\centerline{\large SELECTED PUBLICATIONS}}
+% {\bf Schechtman-Rook, A.} \& Bershady, M. A., ``Near-Infrared Structure
+% of Fast and Slow Rotating Disk Galaxies'', 2014, {\it in prep}\\
+% {\bf Schechtman-Rook, A.}, Ph.D. Dissertation: ``Lifting the Dusty
+% Veil: Understanding the Stellar Structure of Spiral Disks'', 2013\\
+% {\bf Schechtman-Rook, A.} \& Bershady, M. A., ``Near-infrared Detection
+% of a Super-thin Disk in NGC 891'', 2013, {\it ApJ}, 773, 45\\
+% {\bf Schechtman-Rook, A.} \& Hess, K. M., ``NGC 4656UV: A UV-selected
+% Tidal Dwarf Galaxy Candidate'', 2012, {\it ApJ}, 750, 171\\
+% {\bf Schechtman-Rook, A.}, Bershady, M. A., \& Wood, K., ``The
+% Three-dimensional Distribution of Dust in NGC 891'', 2012, {\it ApJ}, 746,70
 
  
 \end{resume} 
