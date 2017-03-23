@@ -1,114 +1,143 @@
 % LaTeX file for resume 
 % This file uses the resume document class (res.cls)
-
 \documentclass[11pt]{res}
+\usepackage{hyperref}
+%\hypersetup{
+%    colorlinks=true,
+%    linkcolor=blue,
+%    %filecolor=magenta,      
+%    urlcolor=blue,
+%}
 \topmargin=-0.380in  % start text higher on the page
 \setlength{\textheight}{9.75in} % increase text height to fit resume on 1 page
 \newsectionwidth{0pt}  % So the text is not indented under section headings
 \begin{document}  
 \name{Andrew Schechtman-Rook}
 
-\address{rook166@gmail.com --- (917)-836-4267}
+%\address{(917)-836-4267                rook166@gmail.com}
+\address{rook166@gmail.com\\(917)-836-4267}
+%\address{\url{https://github.com/AndrewRook}}
+\address{https://github.com/AndrewRook}
                         
 \begin{resume} 
 \vspace{-0.1in}
 \section{\centerline{\large EDUCATION}}
-Ph.D., Astronomy, University of Wisconsin-Madison \hfill\mbox{December 2013}\\
-%\begin{itemize} \itemsep -2pt
-%   \item Thesis title: \textit{Lifting the Dusty Veil: Understanding the Stellar Structure of Spiral Disks}
-%\end{itemize}
-%\vspace{-0.17in}
+PhD, Astronomy, University of Wisconsin-Madison \hfill\mbox{December 2013}\\
 MS, Astronomy, University of Wisconsin-Madison \hfill\mbox{June 2009}\\
 BS, Astronomy, Case Western Reserve University \hfill\mbox{May 2007}\\
 \vspace{-0.3in}
 \section{\centerline{\large EXPERIENCE}}
-{\bf Principal Data Scientist}\hfill\mbox{2014-Present}\\
-Capital One Labs
+{\bf Independent NFL Analyst}\hfill\mbox{2013-Present}\\
+phdfootball.blogspot.com
+                  \vspace* {0.01 in}\begin{itemize} \itemsep -2pt
+                    \item Designed a responsive online dashboard
+                      allowing users to visually filter 350,000
+                      plays to identify and explore
+                      interesting game situations.
+                    \item Authored a Python library to compute
+                      play-by-play win probabilities based on game situation.
+                    \item Developed a program to automatically remove
+                      camera motion from NFL game footage. 
+%                    \item Mined a play-by-play database containing
+%                      over 500,000 records across dozens of tables
+%                      for deep relationships between individual players
+%                      as well as teams. 
+%                    \item Explained findings to a broad audience through both written posts and evocative figures.
+                  \end{itemize} 
+\vspace{-0.15in}
+{\bf Manager, Data Science}\hfill\mbox{2016-Present}\\
+Capital One
 \vspace*{0.01 in}\begin{itemize} \itemsep -2pt
-  \item Built and deployed an interactive course completion dashboard using Flask
-    and dc.js to provide progress reports to individual students as
-    well as company leadership.
+  \item Created a Python library to facilitate the creation and
+    refinement of robust, production-ready data analysis pipelines,
+    saving hundreds of hours of R\&D effort.
+  \item Led development of a proof-of-concept automated machine learning model
+    deployment scheme for cloud-based applications.
+  \item Constructed a Python model to predict credit card spend
+    based on application information 25\% better than existing procedure,
+    and advised leadership on its value and proper use.
+\end{itemize}
+\vspace{-0.15in}
+
+{\bf Principal Data Scientist}\hfill\mbox{2014-2016}\\
+Capital One Labs
+\vspace*{0.01 in}\begin{itemize} \itemsep -2pt 
   \item Implemented a novel approach to deliver internal technical
     trainings, providing over 5000 hours of classes with no instructors.
+  \item Programmed and deployed an interactive course completion dashboard using Flask
+    and dc.js to provide progress reports to individual students as
+    well as company leadership.
   \item Engineered a credit card payment simulator, allowing a product team
-    to gain actionable insights without expensive pilots.
+    to gain actionable insights without expensive pilot programs.
   \end{itemize}
 \vspace{-0.15in}
 
 {\bf Data Science Fellow}\hfill\mbox{2014}\\
 The Data Incubator
                   \vspace* {0.01 in}\begin{itemize} \itemsep -2pt
-                    \item Trained a model on
-                      historical airline on-time arrival data to predict flight
-                      delay times.
-                    \item Designed a web interface to provide interactive itinerary
+                    \item Formulated a model to predict flight
+                      delay times based on
+                      historical airline on-time arrivals.
+                    \item Built a web interface to provide interactive itinerary
                       input and visualizations to intuitively
                       display model results.
                     \end{itemize}
 \vspace{-0.15in}
 
-{\bf Postdoctoral Research Associate}\hfill\mbox{2014}\\
+%{\bf Postdoctoral Research Associate}\hfill\mbox{2014}\\
+%University of Wisconsin-Madison
+%                  \vspace* {0.01 in}\begin{itemize} \itemsep -2pt
+%                    \item Improved agreement between numerical models
+%                      and astronomical data by 20\%, using vectorized
+%                      numpy operations and specialized libraries to
+%                      preserve run time.
+%                    \item Authored a fast Voronoi Tessellation algorithm
+%                      to adaptively bin images, preserving spatial
+%                      resolution while maximizing signal in images
+%                      with over one million pixels.
+%                    \end{itemize}
+%\vspace{-0.15in}
+{\bf Graduate and Postdoctoral Researcher}\hfill\mbox{2007-2014}\\
 University of Wisconsin-Madison
                   \vspace* {0.01 in}\begin{itemize} \itemsep -2pt
-                    \item Improved agreement between numerical models
-                      and astronomical data by 20\%, using vectorized
-                      numpy operations and specialized libraries to
-                      preserve run time.
-                    \item Authored a fast Voronoi Tessellation algorithm
+%                    \item Improved agreement between numerical models
+%                      and astronomical data by 20\%, using vectorized
+%                      numpy operations and specialized libraries to
+%                      preserve run time.
+                    \item Devised a fast Voronoi Tessellation
+                      algorithm in Python
                       to adaptively bin images, preserving spatial
                       resolution while maximizing signal in images
                       with over one million pixels.
-                    \end{itemize}
-\vspace{-0.15in}
-{\bf Independent NFL Analyst}\hfill\mbox{2013-Present}\\
-phdfootball.blogspot.com
-                  \vspace* {0.01 in}\begin{itemize} \itemsep -2pt
-                    \item Developed a program to automatically remove
-                      camera motion from NFL game footage. 
-                    \item Mined a play-by-play database containing
-                      over 500,000 records across dozens of tables
-                      for deep relationships between individual players
-                      as well as teams. 
-                    \item Explained findings to a broad audience through both written posts and evocative figures.
-                  \end{itemize} 
-\vspace{-0.15in}
-{\bf Research Assistant}\hfill\mbox{2007-2013}\\
-University of Wisconsin-Madison
-                  \vspace* {0.01 in}\begin{itemize} \itemsep -2pt
-                   \item Employed on-campus distributed computing
-                     resources to perform large-scale modeling in parallel, using over 20 years of computer time
-                     in 1 month.
-                   \item Assembled a hybrid C++/Python processing
+%                   \item Employed on-campus distributed computing
+%                     resources to perform large-scale modeling in parallel, using over 20 years of computer time
+%                     in 1 month.
+                   \item Assembled a hybrid C++/Python
                      pipeline to process hundreds of high-resolution images with
                      minimal user intervention, resulting in a 10x increase in analysis precision.
-                   \item Created a genetic
-                     algorithm in C++ to efficiently fit complex galaxy models to high-resolution images.
-                  \item Computed descriptive statistics about
-                    200+ astronomical objects from raw survey data
-                    automatically via custom-built analysis software
-                    blending C++ and shell scripting programs.
+                  %  \item Architected a genetic
+                  %    algorithm in C++ to fit complex models to
+                  %    high-resolution images.
+                  % \item Built analysis software using C++ and shell
+                  %   scripts to automatically compute descriptive
+                  %   statistics for over 200 astronomical objects from
+                  %   raw survey data.
+                  % \item Computed descriptive statistics for
+                  %   200+ astronomical objects from raw survey data
+                  %   automatically via custom-built analysis software
+                  %   blending C++ and shell scripts.
                   \end{itemize} 
-% \vspace {-0.15 in}
-% {\bf Research Assistant}\hfill\mbox{2006-2007}\\
-% Case Western Reserve University
-%                   \vspace* {0.01 in}\begin{itemize} \itemsep -2pt
-%                     \item Designed and executed statistical analyses
-%                       of simulated galaxy clusters to optimize
-%                       strategy for future data acquisition.
-%                     \item Used 
-%                       regression analysis to compute a conversion
-%                       between astronomical filter systems. 
-%                   \end{itemize} 
 \vspace{-0.1in}
 \section{\centerline{\large SKILLS}}
-                    {\bf Programming:} Python, shell scripting, C++.\\
-                      {\bf Databases and Web Design:} Flask/Django, AWS,
-                      MySQL, Hive/Beeline.\\
-                        {\bf Operating Systems:} Linux, Mac OS X.\\
+                    {\bf Programming:} Python, shell scripting, Javascript, C++\\
+                      {\bf Databases and Web Design:} Flask/Django,
+                      MySQL/PostgreSQL, Hive/Beeline\\
+                      {\bf Cloud Computing:} AWS (EC2, ECS, S3,
+                      Cloudformation), Ansible\\
+                        {\bf Operating Systems:} Linux, Mac OS X\\
                         {\bf Data Analysis:} Parallel and distributed
-                        computing; machine
-                        learning; image
-                        processing and machine vision; Monte Carlo; principal component analysis.
+                        computing, machine
+                        learning, spatial analysis, image processing, machine vision
 
  
 \end{resume} 
