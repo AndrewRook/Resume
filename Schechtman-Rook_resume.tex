@@ -2,21 +2,14 @@
 % This file uses the resume document class (res.cls)
 \documentclass[11pt]{res}
 \usepackage{hyperref}
-%\hypersetup{
-%    colorlinks=true,
-%    linkcolor=blue,
-%    %filecolor=magenta,      
-%    urlcolor=blue,
-%}
+
 \topmargin=-0.380in  % start text higher on the page
 \setlength{\textheight}{9.75in} % increase text height to fit resume on 1 page
 \newsectionwidth{0pt}  % So the text is not indented under section headings
 \begin{document}  
 \name{Andrew Schechtman-Rook}
 
-%\address{(917)-836-4267                rook166@gmail.com}
 \address{rook166@gmail.com\\(917)-836-4267}
-%\address{\url{https://github.com/AndrewRook}}
 \address{https://github.com/AndrewRook}
                         
 \begin{resume} 
@@ -24,12 +17,11 @@
 {\bf Senior Manager, Data Science}\hfill\mbox{2018-Present}\\
 Capital One
 \vspace*{0.01 in}\begin{itemize} \itemsep -2pt
+  \item Guided ongoing development of the core credit card valuations model scoring platform, delivering regular releases of new and updated models while improving the robustness and maintainability of our infrastructure. 
+  \item Led technical development of model monitoring tools, mentoring three junior data scientists to deliver a maintainable package on time and to spec.
   \item Deployed the first cloud-based credit card underwriting model
     in the company via a dockerized Python API, with an estimated
     incremental value of \$35MM per year.
-  \item Led development of modernized model monitoring package,
-    decreasing the time and effort required to complete compliance-required model
-    monitoring.
 \end{itemize}
 \vspace{-0.15in}
 
@@ -43,9 +35,6 @@ Capital One
     deployment scheme for cloud-based applications, influencing the
     development direction for the company-wide credit card application
     processing platform.
-  \item Constructed a Python model to predict credit card spend
-    based on application information 25\% better than existing procedure,
-    and advised leadership on its value and proper use.
 \end{itemize}
 \vspace{-0.15in}
 
@@ -72,25 +61,10 @@ The Data Incubator
                     \end{itemize}
 \vspace{-0.15in}
 
-{\bf Graduate and Postdoctoral Researcher}\hfill\mbox{2007-2014}\\
-University of Wisconsin-Madison
-                  \vspace* {0.01 in}\begin{itemize} \itemsep -2pt
-                    \item Devised a fast Voronoi Tessellation
-                      algorithm in Python
-                      to adaptively bin images, preserving spatial
-                      resolution while maximizing signal in images
-                      with over one million pixels.
-                   \item Assembled a hybrid C++/Python
-                     pipeline to process hundreds of high-resolution images with
-                     minimal user intervention, resulting in a 10x increase in analysis precision.
-                  \end{itemize} 
-\vspace{-0.1in}
-
-\section{\centerline{\large SKILLS}}
+\section{\centerline{\large TECHNICAL SKILLS}}
                     {\bf Programming:} Python (numpy, scipy, pandas,
                     sklearn, xgboost, matplotlib), shell scripting\\
-                      {\bf Databases and Web Design:} Flask,
-                      MySQL/PostgreSQL\\
+                      {\bf Databases and Web Design:} Flask, MySQL/PostgreSQL, Snowflake\\
                       {\bf Cloud Computing/Devops:} AWS, Ansible, Docker, CircleCI, Jenkins\\
                         {\bf Operating Systems:} Linux, Mac OSX\\
                         {\bf Data Analysis:} Parallel and distributed
